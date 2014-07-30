@@ -1,6 +1,6 @@
 title: memcache和redis本质区别在哪里
 date: 2014-07-29 00:54:41
-tags: [memcache,redis]
+tags: [Memcache,Redis]
 ---
 1.Redis中，并不是所有的数据都一直存储在内存中的，这是和Memcached相比一个最大的区别。
 
