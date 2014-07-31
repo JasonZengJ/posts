@@ -19,7 +19,7 @@ tags: Java
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;我们可以通过这样的代码来获取类加载器: 
 
 ```
- ClassLoader loader 	   = ClassName.class.getClassLoader();
+ ClassLoader loader       = ClassName.class.getClassLoader();
  ClassLoader ParentLoader = loader.getParent();
 ```
 
