@@ -1,6 +1,6 @@
 title: Objective-c ARC要点
-data: 2014-7-16 13:00:00
-tag: Objective-c
+date: 2014-08-07 01:20:08
+tags: Objective-c
 ---
 
 1、只要一个对象有strong 修饰的引用，那么这个对象就不会被释放.
@@ -172,5 +172,4 @@ MyClass * __block myClass = self;
 ```
 
 参考文档 [Transitioning to ARC Release Notes](https://developer.apple.com/library/mac/releasenotes/ObjectiveC/RN-TransitioningToARC/Introduction/Introduction.html)
-
 
