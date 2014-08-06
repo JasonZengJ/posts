@@ -144,7 +144,7 @@ MyClass * __block myClass = self;
 
 13、针对文件启动或关闭ARC.  使用命令-fobjc-arc 或 -fno-objc-arc.
 
-![文件启动或关闭ARC示例图](/images/fno-objc-arc.png)
+![文件启动或关闭ARC示例图](https://raw.githubusercontent.com/JasonZengJ/Images/master/blog/fno-objc-arc.png)
 
 ####ARC强制规则：（以下在编译时就会报错）
 1、不能明确的调用dealloc，也不能实现和调用retain, release, retainCount,autorelease等方法，也禁止使用@selector(retain), @selector(release).
