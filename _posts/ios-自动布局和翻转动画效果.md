@@ -25,14 +25,15 @@ func flipView(sender:UITapGestureRecognizer) {
         options: UIViewAnimationOptions.TransitionFlipFromLeft,
         animations: {() -> Void in
             
-    },
-    completion: {(finished:Bool) -> Void in
+    	},
+        completion: {(finished:Bool) -> Void in
         
-    })
+        }
+    )
     
     //在翻转到一半时，切换view
     dispatch_after(dispatch_time_t(flipDuration / 2) * 1000, dispatch_get_main_queue(), { () -> Void in
-            (sender.view as PanelView).changeView()
+        (sender.view as PanelView).changeView()
     })
 }
 ```
