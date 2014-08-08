@@ -63,7 +63,7 @@ if (!OK) {
 
 8、非ARC中，__block id x; 不会使引用计数＋1，而在ARC中则会使得引用计数＋1.
 
-9、可以通过声明，\_\_unsafe_unretained \__\_block id x来在ARC模式下手动管理引用计数，但是正如\__unsafe_unretained名字的含义所示，它是不安全的，而且容易使得引用指针变成野指针（指向无效地址），在block内使用外部引用时，尤其是使用self，最好先声明一个__weak的临时变量来保存外部引用，然后再在block中使用，比如：
+9、可以通过声明，\_\_unsafe\_unretained \__\_block id x来在ARC模式下手动管理引用计数，但是正如\__unsafe_unretained名字的含义所示，它是不安全的，而且容易使得引用指针变成野指针（指向无效地址），在block内使用外部引用时，尤其是使用self，最好先声明一个__weak的临时变量来保存外部引用，然后再在block中使用，比如：
 
 ```
 MyClass * __weak myClass = self;
