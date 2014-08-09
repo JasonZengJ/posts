@@ -2,7 +2,7 @@ title: ios 自动布局和翻转动画效果
 date: 2014-08-08 23:22:47
 tags: [Swift,Design]
 ---
-用swift写的一个ios自动布局和翻转效果的小demo，github 地址:[ios 自动布局和翻转动画效果](https://github.com/JasonZengJ/GridPanelDemo)
+用swift写的一个ios自动布局和翻转效果的小demo，github 地址：[GridPanelDemo](https://github.com/JasonZengJ/GridPanelDemo)
 
 自动布局关键代码块：
 
