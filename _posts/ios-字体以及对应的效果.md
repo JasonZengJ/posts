@@ -1,6 +1,6 @@
 title: ios 字体以及对应的效果
 date: 2014-08-11 23:48:45
-tags: Design
+tags: [Design,ios]
 ---
 
 ##font-set 1:
