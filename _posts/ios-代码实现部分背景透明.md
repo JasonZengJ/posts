@@ -26,4 +26,4 @@ UIView *view = [[UIView alloc] initWithFrame:[UIScreen mainScreen].bounds];
 
 ####效果图
 
-<img src="https://raw.githubusercontent.com/JasonZengJ/Images/master/blog/ios_punch_hole.png" width=320/>
+<img src="https://raw.githubusercontent.com/JasonZengJ/Images/master/blog/ios_punch_hole.png" width=320 alt="部分背景透明效果图"/>
