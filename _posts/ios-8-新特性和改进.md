@@ -166,7 +166,11 @@ for item: AnyObject in statistics!.sources {
 
 ##NSStream +getStreamsToHostWithName
 
-在许多方面，WWDC 2014也是苹果查漏补遗的一年，比如给NSStream添加了新的initializer（再也不用调用CFStreamCreatePairWithSocketToHost了），这就是：+[NSStream getStreamsToHostWithName:port:inputStream:outputStream:]
+在许多方面，WWDC 2014也是苹果查漏补遗的一年，比如给NSStream添加了新的initializer。
+
+这就是：+[NSStream getStreamsToHostWithName:port:inputStream:outputStream:]。
+
+（再也不用调用CFStreamCreatePairWithSocketToHost了）
 
 ```
 var inputStream: NSInputStream?
