@@ -3,7 +3,7 @@ date: 2014-09-01 12:22:55
 tags: ios
 ---
 
-英文原版：[NSHipster i​OS 8](http://nshipster.com/ios8/)
+英文原文：[NSHipster i​OS 8](http://nshipster.com/ios8/)
 
 
 ##NSProcessInfo -isOperatingSystemAtLeastVersion
@@ -303,7 +303,7 @@ ps:WTF_PLATFORM_IOS的含义会不会是WHAT_THE_FUCK_PLATFORM_IOS  :P 哈哈
 
 WKWebView 能在应用中提供了Safari级别的网页处理性能，并且通过偏好配置大大的增强了UIWebView
 
-[这里有详解](http://www.hotobear.com/?p=741)
+[可以戳这里看看](http://www.hotobear.com/?p=741)
 
 ```
 import WebKit
