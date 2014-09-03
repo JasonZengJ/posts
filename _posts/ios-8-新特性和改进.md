@@ -8,7 +8,9 @@ tags: ios
 
 ##NSProcessInfo -isOperatingSystemAtLeastVersion
 
-忘记[[UIDevice currentDevice] systemVersion]和NSFoundationVersionNumber吧, 现在可以用NSProcessInfo -isOperatingSystemAtLeastVersion来确定系统版本。
+忘记[[UIDevice currentDevice] systemVersion]和NSFoundationVersionNumber吧。
+
+现在可以用NSProcessInfo -isOperatingSystemAtLeastVersion来确定系统版本。
 
 ```
 import Foundation
