@@ -1,6 +1,6 @@
-title: ios 代码实现部分背景透明
+title: iOS 代码实现部分背景透明
 date: 2014-08-18 11:34:54
-tags: ios
+tags: iOS
 ---
 先上挖洞代码代码，然后慢慢讲解.. :P
 

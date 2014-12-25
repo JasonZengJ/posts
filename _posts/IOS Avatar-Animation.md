@@ -1,6 +1,6 @@
-title: IOS Avatar Animation
+title: iOS Avatar Animation
 date: 2014-08-07 01:36:25
-tags: [Design,ios]
+tags: [Design,iOS]
 ---
 
 使用Swift写的一个ios头像移动的动画效果，github地址:[Avatar Animation](https://github.com/JasonZengJ/AvatarAnimationDemo)

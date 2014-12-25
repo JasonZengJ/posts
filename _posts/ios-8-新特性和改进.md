@@ -1,6 +1,6 @@
-title: ios 8 新特性和改进
+title: iOS 8 新特性和改进
 date: 2014-09-01 12:22:55
-tags: ios
+tags: iOS
 ---
 
 英文原文：[NSHipster i​OS 8](http://nshipster.com/ios8/)
