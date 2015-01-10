@@ -56,7 +56,7 @@ tsq1nnHTVk0oxhsMyYZX4r5vaFojs8
 
 Name: CyberPunk
 Valid Until: 12th April, 2112
-Key: 
+Key:
 ===== LICENSE BEGIN =====
 09422-12042010
 00000c5f2Rc!6y1swWidvWMOaYQ5Vm
@@ -66,7 +66,7 @@ WpOVSPKhw9KYi2sUY5m69evCmYOV"f
 
 Name: CyberPunk
 Valid Until: 12th April, 2112
-Key: 
+Key:
 ===== LICENSE BEGIN =====
 60428-12042010
 00000SWZN26tLCNJ6uwdYCrASvhC4i
@@ -76,7 +76,7 @@ sumNDTPsplhJf"YQJKQbkpHXXKRuIF
 
 Name: CyberPunk
 Valid Until: 12th April, 2112
-Key: 
+Key:
 ===== LICENSE BEGIN =====
 23855-12042010
 00002djjIc"KSLbEpRRrI38EGapcRB
@@ -98,7 +98,6 @@ Name: Learn Programming
 Valid Until: 12th April, 2112
 Key:
 ===== LICENSE BEGIN =====
-```
 63758-12042010
 00000Ryqh0NCC73lpRm!XVcxFChJ2g
 TUR2lZtlLXrPLbQ66Gs8MHs51RvF2y
@@ -184,3 +183,4 @@ Key:
 VJ8MHC0FTq22S2z6kBDjMmO"bsFl2L
 5aeODfNTwHB3nIC7jzAcFA9uFMfHVW
 ===== LICENSE END =====
+```
