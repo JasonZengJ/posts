@@ -11,7 +11,7 @@ tags: Java
 
 [Android 开发 之 JNI入门 - NDK从入门到精通](http://blog.csdn.net/shulianghan/article/details/18964835)
 
-###编写java代码JNITest.java
+##编写java代码JNITest.java
 
 ```
 public class JNITest {
@@ -31,7 +31,7 @@ public class JNITest {
 
 ```
 
-###编译java文件
+##编译java文件
 
 这里需要做两步
 
@@ -75,7 +75,7 @@ JNIEXPORT jstring JNICALL Java_JNITest_sayHi
 发现其实这个JNITest.h文件相当于介于JNITest.class 与 test.c的一座中间桥梁，在JNITest.class 与 test.c之间定义接口规范以便JNITest.class调用test.c中的函数。
 
 
-###编写java代码调用的c文件代码 test.c
+##编写java代码调用的c文件代码 test.c
 
 ```
    #include "stdio.h"  
@@ -88,7 +88,7 @@ JNIEXPORT jstring JNICALL Java_JNITest_sayHi
       
 ```
 
-###编译c文件
+##编译c文件
 
 ####test.c
 
@@ -109,7 +109,7 @@ gcc test.c -o test.so -shared
 * -I/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/include 与 -I/Library/Java/JavaVirtualMachines/jdk1.7.0_21.jdk/Contents/Home/include/darwin是包含jni变异所要用到的库文件，jni.h , jni_md.h等等,Linux类似.
 
 
-###C语言方法声明格式 
+##C语言方法声明格式 
 
 ```
 JNIEXPORT jstring JNICALL Java_JNITest_sayHi(JNIEnv *env, jclass jc, jstring name) 
@@ -118,7 +118,7 @@ jstring是Java语言中的String类型,方法名格式为Java\_完整包名类�
 
 具体可参考javah生成的.h文件
 
-###坑点：
+##坑点：
 
 * 若出现java.lang.UnsatisfiedLinkError: Can't load library，说明加载.so文件的路径不对
 
