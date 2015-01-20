@@ -112,9 +112,11 @@ gcc test.c -o test.so -shared
 ###C语言方法声明格式 
 
 ```
-jstring Java_shuliang.han.ndkhelloworld_MainActivity_helloFromJNI(JNIEnv *env)
+JNIEXPORT jstring JNICALL Java_JNITest_sayHi(JNIEnv *env, jclass jc, jstring name) 
 ```
 jstring是Java语言中的String类型,方法名格式为Java\_完整包名类名\_方法名();
+
+具体可参考javah生成的.h文件
 
 ###坑点：
 
