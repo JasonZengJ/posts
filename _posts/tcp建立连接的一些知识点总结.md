@@ -3,7 +3,7 @@ date: 2015-08-11 01:12:37
 tags: Objective-c
 ---
 
-参考资料：\<Unix Network Programming, Volume 1, 3rd Edition>
+参考资料：[Unix Network Programming, Volume 1, 3rd Edition](http://book.douban.com/subject/1756533/)
 
 ###tcp 建立连接、关闭连接、以及一些细节说明
 
