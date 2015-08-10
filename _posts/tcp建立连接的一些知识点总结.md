@@ -5,7 +5,7 @@ tags: Objective-c
 
 参考资料：[Unix Network Programming, Volume 1, 3rd Edition](http://book.douban.com/subject/1756533/)
 
-###tcp 建立连接、关闭连接、以及一些细节说明
+##tcp 建立连接、关闭连接、以及一些细节说明
 
 * 建立连接：
   
@@ -49,7 +49,7 @@ tags: Objective-c
 * URG：紧急指针（urgent pointer）有效。 
  
   
-###TCP的状态变化   
+##TCP的状态变化   
 
 ####1、11种不同的状态
 
